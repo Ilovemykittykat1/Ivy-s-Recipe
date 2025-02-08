@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "image": "images/spaghetti_carbonara.png",
+    "ingredients": ["spaghetti", "eggs", "bacon", "parmesan", "black pepper"],
+    "instructions": "Cook spaghetti. In a pan, cook bacon. Mix eggs with parmesan, add to pasta, and stir quickly. Serve with black pepper."
+  },
+  {
+    "name": "Pancakes",
+    "image": "images/pancakes.png",
+    "ingredients": ["flour", "milk", "eggs", "sugar", "butter"],
+    "instructions": "Mix flour, eggs, and milk. Heat a pan, cook pancakes. Serve with butter and sugar."
+  },
+  {
+    "name": "Omelette",
+    "image": "images/omelette.png",
+    "ingredients": ["eggs", "milk", "cheese", "onion", "pepper"],
+    "instructions": "Beat eggs with milk. Cook in a pan. Add cheese, onion, and pepper. Serve hot."
+  },
+  {
+    "name": "Spiderweb Cheesecake",
+    "image": "images/spiderweb_cheesecake.jpg",
+    "ingredients": ["gelatin", "cream cheese", "sugar", "heavy whipping cream", "vanilla", "chocolate crumb crust", "semisweet chocolate chips", "butter"],
+    "instructions": "Mix and prepare cheesecake, then pipe chocolate web on top."
+  },
+  {
+    "name": "Spider Cookies (No-Bake)",
+    "image": "images/spider_cookies.png",
+    "ingredients": ["sugar", "cocoa", "butter", "milk", "peanut butter", "vanilla", "oatmeal"],
+    "instructions": "Boil sugar, cocoa, butter, and milk. Add peanut butter and vanilla. Mix in oatmeal and drop onto wax paper."
+  },
+  {
+    "name": "PB Marshmallow Bars",
+    "image": "images/cook.png",
+    "ingredients": ["butter", "peanut butter", "butterscotch chips", "colored mini marshmallows"],
+    "instructions": "Melt butter, peanut butter, and butterscotch chips over low heat. Cool slightly before adding marshmallows. Spread into a pan and chill."
+  },
+  {
+    "name": "No-Bake Cherry Cheesecake",
+    "image": "images/cook.png",
+    "ingredients": ["cream cheese", "sugar", "whipped topping", "graham cracker crust", "cherry pie filling"],
+    "instructions": "Beat cream cheese and sugar until smooth. Fold in whipped topping. Spread into crust and top with cherry pie filling. Chill before serving."
+  },
+  {
+    "name": "Vanilla Apple Crisp with Caramel Sauce",
+    "image": "images/cook.png",
+    "ingredients": ["apples", "sugar", "vanilla bean", "lemon juice", "nutmeg", "flour", "rolled oats", "brown sugar", "cinnamon", "butter"],
+    "instructions": "Toss apples with sugar, vanilla, lemon juice, and nutmeg. Mix flour, oats, brown sugar, cinnamon, and butter. Bake at 350°F for 35–45 minutes."
+  },
+  {
+    "name": "Banana Loaf",
+    "image": "images/cook.png",
+    "ingredients": ["butter", "sugar", "eggs", "mashed bananas", "flour", "baking soda", "baking powder", "salt", "hot water", "vanilla"],
+    "instructions": "Cream butter, sugar, and eggs. Mix in bananas, then dry ingredients. Bake at 350°F for 1 hour."
+  },
+  {
+    "name": "Caramel Popcorn Balls",
+    "image": "images/cook.png",
+    "ingredients": ["popped corn", "brown sugar", "boiling water", "butter"],
+    "instructions": "Heat brown sugar in boiling water until dissolved. Stir in butter. Pour over popcorn and shape into balls."
+  },
+  {
+    "name": "Cinnamon Rolls",
+    "image": "images/cook.png",
+    "ingredients": ["flour", "baking powder", "salt", "butter", "milk", "brown sugar", "cinnamon"],
+    "instructions": "Mix dry ingredients to form dough. Roll out and spread butter, sugar, and cinnamon. Bake at 425°F for 14-16 minutes."
+  },
+  {
+    "name": "PB Cookies",
+    "image": "images/cook.png",
+    "ingredients": ["egg", "sugar", "peanut butter"],
+    "instructions": "Mix ingredients together. Roll into balls and flatten. Bake at 325°F for 20 minutes."
+  },
+  {
+    "name": "Easy Cheesecake Fudge Brownies",
+    "image": "images/cook.png",
+    "ingredients": ["brownie mix", "sugar", "cream cheese", "vanilla", "egg"],
+    "instructions": "Prepare brownie mix as directed. Mix cream cheese, sugar, vanilla, and egg. Pour cheesecake mixture over brownie batter and swirl. Bake at 375°F."
+  },
+  {
+    "name": "Chicken Balls",
+    "image": "images/cook.png",
+    "ingredients": ["boneless skinless chicken breasts", "pancake mix", "peanut oil"],
+    "instructions": "Boil chicken, let cool, then cut into chunks. Dip in pancake mix, then deep-fry in peanut oil."
+  },
+  {
+    "name": "Roseanne's Meatballs",
+    "image": "images/cook.png",
+    "ingredients": ["brown sugar", "ketchup", "mustard", "vinegar", "cracker crumbs", "onion", "milk"],
+    "instructions": "Mix ingredients. Bake at 350°F for 1 hour."
+  },
+  {
+    "name": "Nana's Chicken",
+    "image": "images/cook.png",
+    "ingredients": ["egg", "milk", "flour", "bread crumbs", "garlic salt", "garlic & peppers"],
+    "instructions": "Dip chicken pieces in egg/milk mixture, then flour/breadcrumbs. Shake and cook."
+  },
+  {
+    "name": "Chocolate Chunk Cookies",
+    "image": "images/cook.png",
+    "ingredients": ["margarine", "brown sugar", "white sugar", "vanilla", "eggs", "flour", "cocoa", "baking soda", "semi-sweet chocolate chips", "nuts"],
+    "instructions": "Cream margarine and sugars. Beat in eggs and vanilla. Add dry ingredients. Stir in chocolate chips and nuts. Drop onto cookie sheet and bake at 350°F."
+  },
+  {
+    "name": "Bubbly Bake",
+    "image": "images/cook.png",
+    "ingredients": ["hashbrowns", "cream of chicken soup", "bacon", "sour cream", "fried onions"],
+    "instructions": "Mix all ingredients and place in a baking dish. Bake at 375°F for 40 minutes."
+  },
+  {
+    "name": "Chicken Balls (Deep-Fried)",
+    "image": "images/cook.png",
+    "ingredients": ["boneless skinless chicken breasts", "pancake mix", "peanut oil"],
+    "instructions": "Boil chicken for 5 minutes, let cool. Cut into chunks, coat in pancake mix, then deep-fry."
+  },
+  {
+    "name": "Michelle's Meatballs",
+    "image": "images/cook.png",
+    "ingredients": ["ground beef", "garlic", "Italian seasoning", "chili pepper", "onions"],
+    "instructions": "Mix all ingredients, shape into balls, and bake at 350°F."
+  }
+]
