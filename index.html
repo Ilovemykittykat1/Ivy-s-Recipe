@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy's Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+   <nav>
+       <div class="nav-top">
+           <button id="add-chat" class="add-chat-button">
+               <span>➕</span> <span class="chat-title">New Search</span>
+           </button>
+       </div>
+       <ul class="options">
+           <li id="clear-chat">🗑️ Clear Search</li>
+       </ul>
+   </nav>
+
+   <main>
+       <h1>🍽️ Ivy's Recipe Finder</h1>
+       <img src="Images/cook.png" alt="Cooking" style="width:300px; display:block; margin:20px auto;">
+       <p>Enter recipe:</p>
+
+       <div class="chat-container">
+           <div id="chat-box"></div>
+           <div class="chat-input">
+               <input type="text" id="user-input" placeholder="Enter ingredients (e.g., chicken, rice)" />
+               <button id="send-btn">Find Recipes</button>
+           </div>
+       </div>
+   </main>
+
+   <!-- Load scripts in the correct order -->
+   <script src="recipes.js"></script>  
+   <script src="script.js"></script>   
+</body>
+</html>
