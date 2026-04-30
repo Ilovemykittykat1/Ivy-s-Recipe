@@ -8,13 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="mtog" id="mt">☰</div>
 <nav id="side">
-    <div class="nav-hd">
-        <div class="nav-brand">🍽️ Ivy's <span>Kitchen</span></div>
-        <div class="nav-sub">Family Recipe Collection</div>
-    </div>
+    <div class="nav-hd"><div class="nav-brand">🍽️ Ivy's <span>Kitchen</span></div><div class="nav-sub">Family Recipe Collection</div></div>
     <div class="nav-body">
         <div class="nav-sec">Actions</div>
         <button class="nb" id="newS">✨ New Search</button>
@@ -25,56 +21,19 @@
         <div id="catBtns"></div>
     </div>
 </nav>
-
 <main>
     <div class="hero">
-        <div class="htag">✨ 100 Recipes Ready to Search</div>
+        <div class="htag" id="htag"></div>
         <h1>Ivy's <span class="gr">Recipe Finder</span></h1>
         <p class="hero-p">Search by ingredient or recipe name across Ivy's full collection of family favorites and classics.</p>
-        <div class="swrap">
-            <div class="sbar">
-                <div class="si">🔍</div>
-                <input type="text" id="ui" placeholder="Search by ingredient or recipe name..." autocomplete="off">
-                <button id="sb">Find Recipes</button>
-            </div>
-            <div class="qtags" id="qtags"></div>
-        </div>
+        <div class="swrap"><div class="sbar"><div class="si">🔍</div><input type="text" id="ui" placeholder="Search by ingredient or recipe name..." autocomplete="off"><button id="sb">Find Recipes</button></div><div class="qtags" id="qtags"></div></div>
     </div>
-    <div class="srow" id="srow">
-        <div class="st"><div class="stn" id="totalN">100</div><div class="stl">Recipes</div></div>
-        <div class="st"><div class="stn" id="ingN">0</div><div class="stl">Ingredients</div></div>
-        <div class="st"><div class="stn" id="catN">0</div><div class="stl">Categories</div></div>
-    </div>
+    <div class="srow" id="srow"><div class="st"><div class="stn" id="totalN">0</div><div class="stl">Recipes</div></div><div class="st"><div class="stn" id="ingN">0</div><div class="stl">Ingredients</div></div><div class="st"><div class="stn" id="catN">0</div><div class="stl">Categories</div></div></div>
     <div id="welc" class="wgrid"></div>
-    <div class="pad" id="rsec" style="display:none;">
-        <div class="rbar">
-            <div class="rlbl" id="rlbl"></div>
-            <div class="vbs">
-                <button class="vb act" data-v="grid">▦</button>
-                <button class="vb" data-v="list">☰</button>
-            </div>
-        </div>
-        <div id="cb"></div>
-    </div>
+    <div class="pad" id="rsec" style="display:none;"><div class="rbar"><div class="rlbl" id="rlbl"></div><div class="vbs"><button class="vb act" data-v="grid">▦</button><button class="vb" data-v="list">☰</button></div></div><div id="cb"></div></div>
 </main>
-
-<div class="mo" id="mo">
-    <div class="ml">
-        <div class="ml-iw">
-            <button class="ml-x" id="mx">✕</button>
-            <div id="mimg"></div>
-        </div>
-        <div class="ml-bd">
-            <h2 class="ml-nm" id="mnm"></h2>
-            <div class="ml-sl">Ingredients</div>
-            <div class="ml-il" id="ming"></div>
-            <div class="ml-sl">How to Make It</div>
-            <p class="ml-it" id="minst"></p>
-        </div>
-    </div>
-</div>
-
-<script src="recipes.js"></script>
-<script src="script.js"></script>
+<div class="mo" id="mo"><div class="ml"><div class="ml-iw"><button class="ml-x" id="mx">✕</button><div id="mimg"></div></div><div class="ml-bd"><h2 class="ml-nm" id="mnm"></h2><div class="ml-sl">Ingredients</div><div class="ml-il" id="ming"></div><div class="ml-sl">How to Make It</div><p class="ml-it" id="minst"></p></div></div></div>
+<script src="recipes.js" defer></script>
+<script src="script.js" defer></script>
 </body>
 </html>
