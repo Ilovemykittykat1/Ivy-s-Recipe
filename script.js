@@ -7,7 +7,7 @@ const allIng=new Set();
 recipes.forEach(r=>r.ingredients.forEach(i=>allIng.add(i)));
 document.getElementById('ingN').textContent=allIng.size;
 document.getElementById('totalN').textContent=recipes.length;
-document.getElementById('htag').textContent='✨ '+recipes.length+' Recipes with Real Measurements';
+
 const cats={};recipes.forEach(r=>{if(!cats[r.cat])cats[r.cat]=0;cats[r.cat]++;});
 document.getElementById('catN').textContent=Object.keys(cats).length;
 const catBtns=document.getElementById('catBtns');
