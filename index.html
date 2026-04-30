@@ -4,36 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivy's Recipe Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>  
-   <nav>
-       <div class="nav-top">
-           <button id="add-chat" class="add-chat-button">
-               <span>➕</span> <span class="chat-title">New Search</span>
-           </button>
-       </div>
-       <ul class="options">
-           <li id="clear-chat">🗑️ Clear Search</li>
-       </ul>
-   </nav>
+<body>
 
-   <main>
-       <h1>🍽️ Ivy's Recipe Finder</h1>
-       <img src="Images/cook.png" alt="Cooking" style="width:300px; display:block; margin:20px auto;">
-       <p>Enter recipe:</p>
+<div class="mtog" id="mt">☰</div>
+<nav id="side">
+    <div class="nav-hd">
+        <div class="nav-brand">🍽️ Ivy's <span>Kitchen</span></div>
+        <div class="nav-sub">Family Recipe Collection</div>
+    </div>
+    <div class="nav-body">
+        <div class="nav-sec">Actions</div>
+        <button class="nb" id="newS">✨ New Search</button>
+        <button class="nb" id="showAll">📖 All Recipes</button>
+        <button class="nb" id="showFav">❤️ Favorites</button>
+        <button class="nb" id="clearR">🗑️ Clear Results</button>
+        <div class="nav-sec">Categories</div>
+        <div id="catBtns"></div>
+    </div>
+</nav>
 
-       <div class="chat-container">
-           <div id="chat-box"></div>
-           <div class="chat-input">
-               <input type="text" id="user-input" placeholder="Enter ingredients (e.g., chicken, rice)" />
-               <button id="send-btn">Find Recipes</button>
-           </div>
-       </div>
-   </main>
+<main>
+    <div class="hero">
+        <div class="htag">✨ 100 Recipes Ready to Search</div>
+        <h1>Ivy's <span class="gr">Recipe Finder</span></h1>
+        <p class="hero-p">Search by ingredient or recipe name across Ivy's full collection of family favorites and classics.</p>
+        <div class="swrap">
+            <div class="sbar">
+                <div class="si">🔍</div>
+                <input type="text" id="ui" placeholder="Search by ingredient or recipe name..." autocomplete="off">
+                <button id="sb">Find Recipes</button>
+            </div>
+            <div class="qtags" id="qtags"></div>
+        </div>
+    </div>
+    <div class="srow" id="srow">
+        <div class="st"><div class="stn" id="totalN">100</div><div class="stl">Recipes</div></div>
+        <div class="st"><div class="stn" id="ingN">0</div><div class="stl">Ingredients</div></div>
+        <div class="st"><div class="stn" id="catN">0</div><div class="stl">Categories</div></div>
+    </div>
+    <div id="welc" class="wgrid"></div>
+    <div class="pad" id="rsec" style="display:none;">
+        <div class="rbar">
+            <div class="rlbl" id="rlbl"></div>
+            <div class="vbs">
+                <button class="vb act" data-v="grid">▦</button>
+                <button class="vb" data-v="list">☰</button>
+            </div>
+        </div>
+        <div id="cb"></div>
+    </div>
+</main>
 
-   <!-- Load scripts in the correct order -->
-   <script src="recipes.js"></script>  
-   <script src="script.js"></script>   
+<div class="mo" id="mo">
+    <div class="ml">
+        <div class="ml-iw">
+            <button class="ml-x" id="mx">✕</button>
+            <div id="mimg"></div>
+        </div>
+        <div class="ml-bd">
+            <h2 class="ml-nm" id="mnm"></h2>
+            <div class="ml-sl">Ingredients</div>
+            <div class="ml-il" id="ming"></div>
+            <div class="ml-sl">How to Make It</div>
+            <p class="ml-it" id="minst"></p>
+        </div>
+    </div>
+</div>
+
+<script src="recipes.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
